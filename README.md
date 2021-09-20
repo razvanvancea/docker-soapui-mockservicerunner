@@ -1,1 +1,14 @@
-docker run --rm -p 8080:8080 -v $PWD/soapui:/home/soapui/project rvancea/soapui-mockservicerunner:latest -a "/" -p "8080" /home/soapui/project/my-soapui-project.xml
+Docker image with SoapUI-5.5.0 and OpenJDK-11.
+
+Prerequisite: 
+- Docker is installed on the local machine
+
+1. Create a new folder
+cd ~ && mkdir -p soapui
+2. Move the SoapUI .xml project file in the "~/soapui" path
+3. RUN the following command
+docker run --rm -p 8080:8080 -v ~/soapui:/home/soapui rvancea/soapui-mockservicerunner:latest -a "/" -p "8080" /home/soapui/my-project.xml
+
+Notes regarding third step:
+- replace 'my-project.xml' with the actual name of your project
+- feel free to change the 8080 port with another value but make sure that you replace all the 3 ports
