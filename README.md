@@ -17,3 +17,5 @@ Notes regarding 3rd step:
 - feel free to change the 8080 port with another value but make sure that you replace all the 3 ports
 
 Congrats, the setup is complete! Now feel free to test out the mocked services on http://localhost:8080
+
+Official Doc: https://www.soapui.org/docs/test-automation/running-from-command-line/soap-mock/
