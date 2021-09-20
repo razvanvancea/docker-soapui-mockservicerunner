@@ -1,5 +1,4 @@
 FROM openjdk:11-jre-slim
-#FROM openjdk:8-jre-alpine
 
 COPY ./soapui/*.tar.gz /opt/
 
@@ -12,3 +11,4 @@ RUN adduser --uid 1000 --disabled-password soapui
 WORKDIR /home/soapui
 
 USER soapui
+
