@@ -15,3 +15,5 @@ docker run --rm -p 8080:8080 -v ~/soapui:/home/soapui rvancea/soapui-mockservice
 Notes regarding 3rd step:
 - replace 'my-project.xml' with the actual name of your project
 - feel free to change the 8080 port with another value but make sure that you replace all the 3 ports
+
+Congrats, the setup is complete! Now feel free to test out the mocked services on http://localhost:8080
