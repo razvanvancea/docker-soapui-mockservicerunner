@@ -1,3 +1,5 @@
+https://hub.docker.com/r/rvancea/soapui-mockservicerunner
+
 Docker image with SoapUI-5.5.0 and OpenJDK-11.
 
 Prerequisite: 
